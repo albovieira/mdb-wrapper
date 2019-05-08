@@ -1,0 +1,8 @@
+*
+!src
+!package*.json
+!process.json
+!index.js
+!newrelic.js
+!tsconfig*.json
+!.npmrc

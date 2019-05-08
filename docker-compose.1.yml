@@ -1,0 +1,14 @@
+version: '3'
+services:
+  redis:
+    image: 'redis'
+    container_name: cache
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - '6379:6379'
+    networks:
+      - mdb-network
+networks:
+  mdb-network:
+    driver: bridge

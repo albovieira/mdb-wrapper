@@ -1,0 +1,32 @@
+version: '3'
+services:
+  redis:
+    image: 'redis'
+    container_name: cache
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - '6379:6379'
+    volumes:
+      - ./config/redis.conf:/usr/local/etc/redis/redis.conf
+    command:
+      - redis-server
+      - /usr/local/etc/redis/redis.conf
+
+    networks:
+      - mdb-network
+
+  node:
+    build: .
+    container_name: app
+    links: 
+      - redis
+    ports:
+     - 3000:3000
+    networks:
+      - mdb-network
+    depends_on:
+      - redis
+networks:
+  mdb-network:
+    driver: bridge
