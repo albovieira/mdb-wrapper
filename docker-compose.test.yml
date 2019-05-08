@@ -9,6 +9,7 @@ services:
       - '6379:6379'
     networks:
       - mdb-network
+
 networks:
   mdb-network:
     driver: bridge

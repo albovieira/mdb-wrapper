@@ -1,4 +1,4 @@
-import { ValidationError, DatabaseError, NotFoundError } from '../util/errors';
+import { ValidationError, NotFoundError } from '../util/errors';
 import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 import { Logger } from 'winston';
 import { HttpStatus } from '../util/http-status';
@@ -18,11 +18,6 @@ export default function (logger: Logger): ErrorRequestHandler {
     if (res.headersSent) {
       logger.error(err.message, metadata);
       return next(err);
-    }
-
-    if (err.name && err.name === 'MongoError') {
-      logger.error(err.message, metadata);
-      err = new DatabaseError(null, 'Database internal error');
     }
 
     const response = new ErrorResponse(err.name, err.message, err.details);

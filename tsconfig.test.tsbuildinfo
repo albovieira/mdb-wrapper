@@ -533,6 +533,10 @@
         "version": "7e4f955032c416750826ef9c02e426c39835d86e4aaff89c7d7152206b219dc5",
         "signature": "7e4f955032c416750826ef9c02e426c39835d86e4aaff89c7d7152206b219dc5"
       },
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/cors/index.d.ts": {
+        "version": "bacd29cf2a5a2829856d37f47173dfb7e26c396845e61e0802204cba3e2560f5",
+        "signature": "bacd29cf2a5a2829856d37f47173dfb7e26c396845e61e0802204cba3e2560f5"
+      },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/ioc-types.ts": {
         "version": "23a1393d42e23cccb751bcd73499b2d94e506775c2223c58715e3ba3f7277e4d",
         "signature": "b8c3bf4735a5a451bc3d210a7e4c265df29fa4b358aa573ea21c1ad83c66219a"
@@ -558,20 +562,20 @@
         "signature": "d3d0d2aea51341655c3448c957081a588cd530d8ad6d3b877b67a6727bf41ba8"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/errors.ts": {
-        "version": "92f87b8da0bed43f1795d958c5f49beb0e2d3b025c2fa4670d450e00a5309384",
-        "signature": "d27322d1b536be2d6e84e4b4a9ea419e318e4dd2ba410af1d9b36c0774cb6659"
+        "version": "15994e4a2960a0d69e907c4519d3d0056698d06650562984f14a67e51bc80341",
+        "signature": "90e10c990570bc631d0b30d630de29b8fd7023f4cbde240f88836b25e84e7237"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/http-status.ts": {
         "version": "3080ad95e556295c7b3b10b8409ca3cd582825f967f7eaba331d14635f7a3cb4",
         "signature": "f894d996c986d6a9399740ad36d7a4e01cc55f6edc7e146c6d0d62e1a6a2524e"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/middleware/error-processor.ts": {
-        "version": "c40814d532e77118630d7be2cefd0692451dfc6d01e4e8f83a33f0495a0991ee",
+        "version": "e33a031ad536aa5585b8f6168783adbaf3dc3e9e2583c1e1979f37970e19679d",
         "signature": "7ca4459518a63201c9abd4bfef3821608bf60361dbd156165f615df24f23bf92"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/app.ts": {
-        "version": "e7d1445d7b1717bf3bbf5dcf4ea81c06a9f18ab5d48e6ee034108f45368f21fb",
-        "signature": "0dce44ee7b9b1fd318b6ecbaf21c130fb85e29a7d7cff9788628d10cd5aeba22"
+        "version": "66302e84eee4db89ce5ff26492e1c17d449697f2291974457ae8dcd564592404",
+        "signature": "ad9b8055c4d3316c1492971eb7fc4189b653a2fc46beeee7960b0022cb0cad56"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/ioredis/index.d.ts": {
         "version": "260ed88d8df702c308c7390f54fddf744450719dab61d0e4ed4f455dfc47e26f",
@@ -586,11 +590,11 @@
         "signature": "29bd8d65c775cc98ffc54c52d9e9636a9dff425b155860797afac168b4bc931a"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/model.ts": {
-        "version": "f92cdd2737dfc4e0fafda66cfb87a2902885060228bc2cd83d5229e64b19225a",
+        "version": "211c802381b3ddf9557975c942b01c524c4e154d120e05dfa6b52c9252ad6e19",
         "signature": "03a3d587ec449ab56e4ce9018b0de606b996eef4f048e39e50d0b91c784a25ab"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/cache.ts": {
-        "version": "b12fa2d4cdfb2ed80193a428f603f6a78e70b7879824f5c218dcc41ed6740b3a",
+        "version": "b2dd8dd33c783bbd79d4c91ced28fab061b041bf24d73b1f863e6e472aea76b8",
         "signature": "ff2dbc4897de98893120c937ecde0d46c599c8ca443fa6541b45b7c874dfad9e"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/service/moviedb.ts": {
@@ -610,7 +614,7 @@
         "signature": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/index.ts": {
-        "version": "ce1b9358cf211218da4398cf6cc5886fd64cc02b7206c4750ef395a304079a34",
+        "version": "be40afe26abebde52dbfb4941dc65f3d998c2104d1aca69175a80384af130e33",
         "signature": "25cdc44c779f190955e8bd78b774bdff769f0fcedcd6b3c565d07b911e098295"
       },
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/server.ts": {
@@ -684,7 +688,6 @@
       "sourceMap": true,
       "composite": true,
       "outDir": "/home/albo-vieira/Projects/arch-touch/api-mdb/.ts-test",
-      "project": "/home/albo-vieira/Projects/arch-touch/api-mdb/tsconfig.test.json",
       "configFilePath": "/home/albo-vieira/Projects/arch-touch/api-mdb/tsconfig.test.json"
     },
     "referencedMap": {
@@ -1466,6 +1469,11 @@
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/util.d.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/cors/index.d.ts": [
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/express/index.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/util.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/ioc-types.ts": [
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/util.d.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1519,6 +1527,8 @@
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/inversify/dts/inversify.d.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/inversify-express-utils/dts/index.d.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/winston/index.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/express/index.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/cors/index.d.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/ioc-types.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/middleware/request-metadata.ts",
         "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/middleware/correlation-id.ts",
@@ -2482,8 +2492,8 @@
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/express/index.d.ts"
       ],
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/app.ts": [
-        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/express/index.d.ts",
-        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/inversify/dts/inversify.d.ts"
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/inversify/dts/inversify.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/express/index.d.ts"
       ],
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/ioredis/index.d.ts": [
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/tls.d.ts",
@@ -2573,6 +2583,11 @@
       ],
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/test/setup.spec.ts": [
         "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/reflect-metadata/index.d.ts"
+      ],
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/cors/index.d.ts": [
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/express/index.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/util.d.ts",
+        "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2715,21 +2730,14 @@
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/uuid/index.d.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/middleware/correlation-id.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/verror/index.d.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/errors.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/http-status.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/middleware/error-processor.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/app.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/ioredis/index.d.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/cookiejar/index.d.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/superagent/index.d.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/model.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/cache.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/service/moviedb.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/controller/movies-controller.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/bootstrap.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/reflect-metadata/index.d.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/index.ts",
-      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/server.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/typings.d.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/mocha/index.d.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/chai/index.d.ts",
@@ -2741,6 +2749,14 @@
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/test/mocks/mock-responses.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/dotenv/index.d.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/test/setup.spec.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/node_modules/@types/cors/index.d.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/errors.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/middleware/error-processor.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/app.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/model.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/util/cache.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/index.ts",
+      "/home/albo-vieira/Projects/arch-touch/api-mdb/src/lib/server.ts",
       "/home/albo-vieira/Projects/arch-touch/api-mdb/src/test/moviedb.spec.ts"
     ]
   },
