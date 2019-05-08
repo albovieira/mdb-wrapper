@@ -13,13 +13,18 @@ mdb-wrapper encapsulate MDB Api to show info about movies
 ## Endpoints
 
 Host: http://ec2-3-84-192-156.compute-1.amazonaws.com/
+
 Query Params: 
+
 - page - Number of the page that you want to see, default is 1
 - lang - The language to retrieve, the default is en-US
 - query - Value used to filter a list of movies
 
 Request Param: 
+
 - movieId - Id of a movie to be retrieved
+
+Endpoints: 
 
 - GET /movies/upcoming?language=:language&page=:page - Upcoming movies list
 - GET /movies/search?query=:query&language=:language&page=:page - List of movies according with query param
@@ -74,7 +79,9 @@ Just start the containers with:
 docker-compose up -d
 ```
 
+
 Website is on root: localhost:3000
+
 To call the endpoints: localhost:3000/ + some of the #Endpoints
 
 ## Testing
