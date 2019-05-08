@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import { getInfoByAttr, clearStorage } from '@/services/storage';
 import swal from 'sweetalert';
 import toastr from 'toastr';
 
