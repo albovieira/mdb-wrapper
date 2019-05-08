@@ -12,7 +12,7 @@ class ErrorResponse {
  */
 export default function (logger: Logger): ErrorRequestHandler {
   return (error: any, req: Request, res: Response, next: NextFunction) => {
-    let err = error;
+    const err:any = error;
     const metadata = req.getRequestMetadata && req.getRequestMetadata();
 
     if (res.headersSent) {
