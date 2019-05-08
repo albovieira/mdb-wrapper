@@ -14,7 +14,7 @@ export interface QueryRequest {
   query?: string;
 }
 
-export interface ResponseMoviesUpcoming{
+export interface ResponseList{
   page: number | 1;
   dates: Object;
   results: [Movie];
@@ -22,7 +22,7 @@ export interface ResponseMoviesUpcoming{
   total_results:number;
 }
 
-export interface ResponseMovieDetails extends MovieDetails{}
+export interface ResponseMovie extends MovieDetails{}
 
 export interface ErrorResponse {
   status_message: string;
