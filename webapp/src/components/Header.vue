@@ -3,7 +3,7 @@
     <b-navbar toggleable="md" type="dark" class="navbar-purple">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand href="/">
-        <img src="/static/img/arch-logo.jpg" height="40" alt="ArcTouch">
+        <img src="/static/img/imdblogo.png" height="40" alt="MDBWrapper">
       </b-navbar-brand>
 
       <b-collapse id="menu" is-nav>

@@ -11,7 +11,7 @@
     "test": "cross-env NODE_ENV=test npx nyc --reporter html --check-coverage --lines 80 npx mocha --timeout 5000 --exit --bail ./.ts-test/test/setup.spec.js \"./.ts-test/test/**/*.spec.js\"",
     "posttest": "npx del .ts-test",
     "prebuild": "npx del bin",
-    "build": "npx tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
