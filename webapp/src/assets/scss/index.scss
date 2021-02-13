@@ -1,0 +1,31 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/dist/bootstrap-vue.css';
+@import '~toastr/toastr.scss';
+@import '~vue-loading-overlay/dist/vue-loading.min.css';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+/* General styles */
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+.container-input {
+  .btn {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    display: none;
+  }
+}

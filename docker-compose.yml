@@ -1,0 +1,38 @@
+version: '3'
+services:
+  redis:
+    image: 'redis'
+    container_name: cache
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - '6379:6379'
+    networks:
+      - mdb-network
+
+  # node:
+  #   build: .
+  #   container_name: app
+  #   links: 
+  #     - redis
+  #   ports:
+  #    - 3000:3000
+  #   networks:
+  #     - mdb-network
+  #   depends_on:
+  #     - redis
+  #   environment:
+  #     - PORT=3000
+  #     - REDIS_HOST=172.17.0.1
+  #     - REDIS_PORT=6379
+  #     - REDIS_DB=0
+  #     - REDIS_CACHE_TTL=86400
+  #     - MDB_BASE_URI=https://api.themoviedb.org/3
+  #     - MDB_TOKEN=1f54bd990f1cdfb230adb312546d765d
+  #     - MDB_TIMEOUT=50000,
+  #     - MDB_IMAGE_URI=https://image.tmdb.org/t/p/w94_and_h141_bestv2
+  #     - WINSTON_CONSOLE_LOG_ENABLE=true
+
+networks:
+  mdb-network:
+    driver: bridge
